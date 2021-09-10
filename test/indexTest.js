@@ -49,6 +49,7 @@ describe("index.js", () => {
     it("has a JavaScript Object called Calculator as a local variable", function() {
       expect(Calculator).to.be.a('object')
     })
+   
 
     describe("that has a function called add", function() {
       it("Calculator.add exists", function() {
